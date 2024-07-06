@@ -13,24 +13,22 @@ Before running this project, ensure you have the following installed on your com
 
 ## Installation
 
-1. **Clone the Project Repository**
+**Clone the Project Repository**
 
    Open your terminal and clone the repository using the following command:
-
-   ```sh
+   
+   ```
    git clone https://github.com/luisFelipeFreitas/fileWatchDog.git
    cd fileWatchDog
    ```
-
 ### Execution
-
-    To execute the code, use the following command in your terminal:
-
-    ```sh
+   
+   To execute the code, use the following command in your terminal:
+   
+   ```
    py watchdog.py interval_in_seconds original_folder_path replica_folder_path
    ```
-
-### Parameters
-    interval_in_seconds: The time interval in seconds at which the original folder is checked for changes.
-    original_folder_path: The path to the original folder that you want to monitor.
-    replica_folder_path: The path to the replica folder where changes will be mirrored.
+   ### Parameters
+       - interval_in_seconds: The time interval in seconds at which the original folder is checked for changes.
+       - original_folder_path: The path to the original folder that you want to monitor.
+       - replica_folder_path: The path to the replica folder where changes will be mirrored.
