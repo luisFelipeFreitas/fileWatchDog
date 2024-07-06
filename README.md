@@ -21,7 +21,6 @@ Before running this project, ensure you have the following installed on your com
    git clone https://github.com/luisFelipeFreitas/fileWatchDog.git
    cd fileWatchDog
    ```
-2. **Usage**
 
 ### Execution
 
